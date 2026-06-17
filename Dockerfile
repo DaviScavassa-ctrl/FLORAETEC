@@ -13,7 +13,7 @@ RUN apt-get update \
         default-mysql-client \
         zlib1g-dev \
         libsqlite3-dev \
-    && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && curl -fsSL https://nodesource.com | bash - '
     && apt-get install -y nodejs \
     && docker-php-ext-install pdo pdo_mysql pdo_pgsql pdo_sqlite zip \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
