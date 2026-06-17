@@ -9,6 +9,7 @@ RUN apt-get update \
         libonig-dev \
         libxml2-dev \
         libpq-dev \
+        libsqlite3-dev \
         default-mysql-client \
         zlib1g-dev \
         libsqlite3-dev \
