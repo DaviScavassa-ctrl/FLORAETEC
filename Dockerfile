@@ -9,6 +9,7 @@ RUN apt-get update \
         libonig-dev \
         libxml2-dev \
         libpq-dev \
+        libsqlite3-dev \
         default-mysql-client \
         zlib1g-dev \
     && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
