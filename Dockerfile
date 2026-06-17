@@ -13,7 +13,6 @@ RUN apt-get update \
         default-mysql-client \
         zlib1g-dev \
         libsqlite3-dev \
-        && docker-php-ext-install pdo_sqlite
     && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
     && apt-get install -y nodejs \
     && docker-php-ext-install pdo pdo_mysql pdo_pgsql pdo_sqlite zip \
