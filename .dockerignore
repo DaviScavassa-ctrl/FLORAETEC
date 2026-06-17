@@ -1,0 +1,12 @@
+vendor
+node_modules
+storage/*.key
+.env
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+npm-debug.log
+yarn-error.log
+.idea
+.vscode
